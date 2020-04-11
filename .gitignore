@@ -1,0 +1,10 @@
+/.idea/.idea.BlazorComponentsDemo/.idea/.gitignore
+/.idea/.idea.BlazorComponentsDemo/.idea/contentModel.xml
+/.idea/.idea.BlazorComponentsDemo/.idea/encodings.xml
+/.idea/.idea.BlazorComponentsDemo/.idea/indexLayout.xml
+/.idea/.idea.BlazorComponentsDemo/.idea/modules.xml
+/.idea/.idea.BlazorComponentsDemo/.idea/projectSettingsUpdater.xml
+/.idea/.idea.BlazorComponentsDemo/riderModule.iml
+/BlazorApp/obj/Debug/netcoreapp3.1/Razor/Pages/TaskList.razor.g.cs
+/BlazorApp/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/TaskList.razor.g.cs
+/.idea/.idea.BlazorComponentsDemo/.idea/vcs.xml

@@ -48,3 +48,5 @@
 /Users/gm/RiderProjects/BlazorComponentsDemo/BlazorApp/obj/Debug/netcoreapp3.1/BlazorApp.pdb
 /Users/gm/RiderProjects/BlazorComponentsDemo/BlazorApp/obj/Debug/netcoreapp3.1/BlazorApp.genruntimeconfig.cache
 /Users/gm/RiderProjects/BlazorComponentsDemo/BlazorApp/obj/Debug/netcoreapp3.1/BlazorApp.csproj.CopyComplete
+/Users/gm/RiderProjects/BlazorComponentsDemo/BlazorApp/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/TaskList.razor.g.cs
+/Users/gm/RiderProjects/BlazorComponentsDemo/BlazorApp/obj/Debug/netcoreapp3.1/Razor/Pages/TaskList.razor.g.cs
