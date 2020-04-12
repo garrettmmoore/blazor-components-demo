@@ -1,0 +1,32 @@
+@page "/TaskList"
+
+<h3>Task List</h3>
+
+<EditForm Model="@newTask" OnValidSubmit="AddTask">
+    <InputText @bind-Value="newTask.Task" />
+    <button type="submit">Add Task</button>
+</EditForm>
+
+<ul>
+    @foreach (var task in taskList)
+    {
+        <li>@task.Task</li>
+        <li>@task.Task</li>
+    }
+</ul>
+
+@code {
+    // private here only applies to this TaskList page
+    private List<TaskModel> taskList = new List<TaskModel>();
+    private TaskModel newTask = new TaskModel();
+    
+    // method is called when submit button is clicked
+    private void AddTask()
+    {
+        // the model is the newTask so each field is one property in that class
+        taskList.Add(newTask);
+        
+        // reset value after task is added to the list
+        newTask = new TaskModel();
+    }
+}
