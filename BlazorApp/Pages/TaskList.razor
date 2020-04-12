@@ -2,16 +2,28 @@
 
 <h3>Task List</h3>
 
-<EditForm Model="@newTask" OnValidSubmit="AddTask">
-    <InputText @bind-Value="newTask.Task" />
-    <button type="submit">Add Task</button>
+<EditForm class="form-inline my-2" Model="@newTask" OnValidSubmit="AddTask">
+    <InputText class="form-control mx-2" @bind-Value="newTask.Task" />
+    <button class="btn btn-outline-primary" type="submit">Add Task</button>
 </EditForm>
 
 <ul>
     @foreach (var task in taskList)
     {
-        <li>@task.Task</li>
-        <li>@task.Task</li>
+        if (task.IsComplete)
+        {
+            <li class="list-group-item list-group-item-secondary my-1"
+                @onclick="(()=> task.IsComplete = !task.IsComplete)">
+                <del>@task.Task</del>
+            </li>
+        }
+        else
+        {
+            <li class="list-group-item list-group-item-success my-1"
+                @onclick="(()=> task.IsComplete = !task.IsComplete)">
+                @task.Task
+            </li>
+        }
     }
 </ul>
 
